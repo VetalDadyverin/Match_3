@@ -46,19 +46,8 @@ Window {
     MyGrid{
         id: myGrid
         anchors.top: informRow.bottom
-        onStartFalling:{
-            if(first_index === const_start){
-                if(listModel.start_falling()){
-                    if(myGrid.listModel.stop_game()){
-                        myPopup.open();
-                    }
-                }
-            }
-            else{
-                listModel.falling_down();
-                first_index = const_start;
-            }
-            score_count = listModel.get_score();
+        onStopGame :{
+            myPopup.open();
         }
     }
 }

@@ -5,7 +5,7 @@ Rectangle{
     property alias grid: _grid
     property alias listModel: _listModel
     property bool ready: false
-    signal startFalling()
+    signal stopGame()
     anchors.horizontalCenter: parent.horizontalCenter
     border.color: "black"
     border.width: 2
@@ -13,6 +13,22 @@ Rectangle{
     width: root.width * 0.95
     height: root.height * 0.8485
     radius: 10
+
+    function startFalling(){
+        if(first_index === const_start){
+            if(listModel.start_falling()){
+                if(myGrid.listModel.stop_game()){
+                    stopGame();
+                }
+            }
+        }
+        else{
+            listModel.falling_down();
+            first_index = const_start;
+        }
+        score_count = listModel.get_score();
+    }
+
     GridView{
         id: _grid
         width: parent.width

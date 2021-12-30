@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 5.0.3, 2021-12-29T09:17:04. -->
+<!-- Written by QtCreator 5.0.3, 2021-12-29T12:03:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -235,8 +235,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/vdadyverin/Projects/Match_3_with_plugin/Match_3_qml/Match_3_qml.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/vdadyverin/Projects/Match_3_with_plugin/Match_3_qml/Match_3_qml.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Match_3_qml2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/vdadyverin/Projects/Match_3_with_plugin/Match_3/Match_3_qml/Match_3_qml.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/vdadyverin/Projects/Match_3_with_plugin/Match_3/Match_3_qml/Match_3_qml.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
